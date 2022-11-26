@@ -1,0 +1,19 @@
+.sidebar {
+  background-color: #1a171e;
+  color: #9a9a9d;
+  padding: 10px 0;
+  .sidebar-channels {
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 16px;
+      height: 28px;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
